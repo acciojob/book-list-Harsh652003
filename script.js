@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const bookList = document.getElementById("book-list");
         const row = document.createElement("tr");
-        row.innerHTML = `<td>${title}</td><td>${author}</td><td>${isbn}</td><td><button class='delete-btn'>X</button></td>`;
+        row.innerHTML = `<td>${title}</td><td>${author}</td><td>${isbn}</td><td><button class='delete'>X</button></td>`;
         bookList.appendChild(row);
 
         document.getElementById("title").value = "";
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("book-list").addEventListener("click", function(event) {
-        if (event.target.classList.contains("delete-btn")) {
+        if (event.target.classList.contains("delete")) {
             event.target.parentElement.parentElement.remove();
         }
     });
