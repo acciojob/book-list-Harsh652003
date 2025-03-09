@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+	        margin:0px;
+	        padding:0px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h1 span {
+            color: blue;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 0px;
+            border: 1px solid ;
+            border-radius: 5px;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding:10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .delete-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
