@@ -38,7 +38,7 @@ body {
             padding: 10px;
             border-bottom: 1px solid #ddd;
         }
-        .delete-btn {
+        .delete{
             background-color: red;
             color: white;
             border: none;
